@@ -11,5 +11,7 @@ router.get('/', function(req, res) {
 /* Primera pregunta*/
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
+/* Creditos*/
+router.get('/author', quizController.author);
 
 module.exports = router;
